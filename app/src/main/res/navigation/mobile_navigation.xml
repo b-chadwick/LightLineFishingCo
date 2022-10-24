@@ -3,23 +3,30 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
-
+    app:startDestination="@id/nav_home">
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.benchadwick.lightlinefishingco.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:name="com.benchadwick.lightlinefishingco.HomeFragment"
+        android:label="@string/title"
         tools:layout="@layout/fragment_home" />
-
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.benchadwick.lightlinefishingco.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
-
+        android:id="@+id/nav_equipment"
+        android:name="com.benchadwick.lightlinefishingco.EquipmentFragment"
+        android:label="@string/menu_equipment"
+        tools:layout="@layout/fragment_equipment" />
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.benchadwick.lightlinefishingco.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_knot_menu"
+        android:name="com.benchadwick.lightlinefishingco.KnotMenuFragment"
+        android:label="@string/menu_knot_menu"
+        tools:layout="@layout/fragment_knot_menu" />
+    <fragment
+        android:id="@+id/nav_species"
+        android:name="com.benchadwick.lightlinefishingco.SpeciesFragment"
+        android:label="@string/menu_species"
+        tools:layout="@layout/fragment_species" />
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.benchadwick.lightlinefishingco.ContactFragment"
+        android:label="fragment_contact"
+        tools:layout="@layout/fragment_contact" />
 </navigation>
