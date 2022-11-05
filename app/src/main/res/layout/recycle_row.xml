@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/med_margin"
+    android:layout_marginBottom="@dimen/med_margin"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/recycle_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/med_margin"
+        android:layout_marginTop="@dimen/med_margin"
+        android:layout_marginRight="@dimen/med_margin"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/bluegill" />
+
+    <TextView
+        android:id="@+id/recycle_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/small_margin"
+        android:fontFamily="@font/cherry_cream_soda"
+        android:padding="@dimen/small_margin"
+        android:text="Species: Bluegill"
+        android:textAlignment="center"
+        android:textSize="@dimen/medium_font" />
+
+    <TextView
+        android:id="@+id/recycle_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:padding="@dimen/small_margin"
+        android:text="Submitted by: Hank Hill - November 5th 2022"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+</LinearLayout>

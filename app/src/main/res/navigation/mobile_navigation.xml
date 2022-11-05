@@ -6,27 +6,32 @@
     app:startDestination="@id/nav_home">
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.benchadwick.lightlinefishingco.HomeFragment"
+        android:name="com.benchadwick.lightlinefishingco.fragments.HomeFragment"
         android:label="@string/title"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/nav_equipment"
-        android:name="com.benchadwick.lightlinefishingco.EquipmentFragment"
+        android:name="com.benchadwick.lightlinefishingco.fragments.EquipmentFragment"
         android:label="@string/menu_equipment"
         tools:layout="@layout/fragment_equipment" />
     <fragment
         android:id="@+id/nav_knot_menu"
-        android:name="com.benchadwick.lightlinefishingco.KnotMenuFragment"
+        android:name="com.benchadwick.lightlinefishingco.fragments.KnotMenuFragment"
         android:label="@string/menu_knot_menu"
         tools:layout="@layout/fragment_knot_menu" />
     <fragment
         android:id="@+id/nav_species"
-        android:name="com.benchadwick.lightlinefishingco.SpeciesFragment"
+        android:name="com.benchadwick.lightlinefishingco.fragments.SpeciesFragment"
         android:label="@string/menu_species"
         tools:layout="@layout/fragment_species" />
     <fragment
         android:id="@+id/nav_contact"
-        android:name="com.benchadwick.lightlinefishingco.ContactFragment"
+        android:name="com.benchadwick.lightlinefishingco.fragments.ContactFragment"
         android:label="fragment_contact"
         tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/nav_catch_of_the_day"
+        android:name="com.benchadwick.lightlinefishingco.catch_of_the_day.CatchOfTheDayFragment"
+        android:label="Catch of the Day"
+        tools:layout="@layout/fragment_catch_of_the_day" />
 </navigation>
