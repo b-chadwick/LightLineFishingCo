@@ -20,5 +20,9 @@
             android:id="@+id/nav_knot_menu"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_knot_menu" />
+        <item
+            android:id="@+id/nav_catch_of_the_day"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/catch_of_the_day" />
     </group>
 </menu>
