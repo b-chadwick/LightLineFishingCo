@@ -1,8 +1,11 @@
 package com.benchadwick.lightlinefishingco.catch_of_the_day;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.preference.PreferenceManager;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -78,7 +81,16 @@ public class CatchOfTheDayFragment extends Fragment {
         fishPosts.add(new Fish(R.drawable.pumpkinseed, "Pumpkinseed", "Huey Lewis", "Oct 13th 2022"));
         fishPosts.add(new Fish(R.drawable.rockbass, "Rock Bass", "Patrick Bateman", "Oct 11th 2022"));
         RecyclerView recyclerView = view.findViewById(R.id.recyclerView);
-        recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getContext());
+        String layout = preferences.getString("cotd_layout", "linear");
+        switch (layout){
+            case "linear":
+                recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+            break;
+            case "grid":
+                recyclerView.setLayoutManager(new GridLayoutManager(getContext(), 2));
+        }
+
         recyclerView.setAdapter(new FishRecyclerViewAdapter(fishPosts));
         return view;
     }
