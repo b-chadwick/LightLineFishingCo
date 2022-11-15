@@ -7,8 +7,11 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
 
 import com.benchadwick.lightlinefishingco.R;
+
+import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -61,6 +64,17 @@ public class KnotToolNavigationFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_knot_tool_navigation, container, false);
+        View view = inflater.inflate(R.layout.fragment_knot_tool_navigation, container, false);
+        ListView listView = view.findViewById(R.id.knot_listview);
+        ArrayList<Knot> knots = new ArrayList<>();
+        knots.add(new Knot(R.drawable.clinch, "Improved Clinch Knot"));
+        knots.add(new Knot(R.drawable.palomar, "Palomar Knot"));
+        knots.add(new Knot(R.drawable.rapala, "Rapala Knot"));
+        knots.add(new Knot(R.drawable.snell, "Snell Knot"));
+        knots.add(new Knot(R.drawable.uni, "Uni Knot"));
+
+        CustomListViewAdapter arrayAdapter = new CustomListViewAdapter(getContext(), knots);
+        listView.setAdapter(arrayAdapter);
+        return view;
     }
 }
