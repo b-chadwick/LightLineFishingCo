@@ -3,20 +3,21 @@ package com.benchadwick.lightlinefishingco.knot_tool;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
-import androidx.viewpager2.widget.ViewPager2;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.benchadwick.lightlinefishingco.R;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link knotToolViewPager#newInstance} factory method to
+ * Use the {@link KnotToolFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class knotToolViewPager extends Fragment {
+public class KnotToolFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -25,10 +26,9 @@ public class knotToolViewPager extends Fragment {
 
     // TODO: Rename and change types of parameters
     private String mParam1;
-    private String mParam2;
-    ViewPager2 viewPager2;
+    private int mParam2;
 
-    public knotToolViewPager() {
+    public KnotToolFragment() {
         // Required empty public constructor
     }
 
@@ -38,14 +38,14 @@ public class knotToolViewPager extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment knotToolViewPager.
+     * @return A new instance of fragment KnotToolFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static knotToolViewPager newInstance(String param1, String param2) {
-        knotToolViewPager fragment = new knotToolViewPager();
+    public static KnotToolFragment newInstance(String param1, int param2) {
+        KnotToolFragment fragment = new KnotToolFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
+        args.putInt(ARG_PARAM2, param2);
         fragment.setArguments(args);
         return fragment;
     }
@@ -55,7 +55,7 @@ public class knotToolViewPager extends Fragment {
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
+            mParam2 = getArguments().getInt(ARG_PARAM2);
         }
     }
 
@@ -63,11 +63,12 @@ public class knotToolViewPager extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_knot_tool_view_pager, container, false);
-        Bundle extras = getArguments();
-        if (extras != null) {
-            viewPager2 = view.findViewById(R.id.knotViewPager);
-            viewPager2.setAdapter(new CustomViewPageAdapter(getActivity(), extras.getString("KNOT"), getContext()));
+        View view = inflater.inflate(R.layout.fragment_knot_tool, container, false);
+        if (mParam1 != null){
+            TextView instruction = view.findViewById(R.id.knot_instruction);
+            instruction.setText(mParam1);
+            ImageView image = view.findViewById(R.id.knot_image);
+            image.setImageResource(mParam2);
         }
         return view;
     }
