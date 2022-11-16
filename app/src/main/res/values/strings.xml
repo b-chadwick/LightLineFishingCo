@@ -2,8 +2,8 @@
     <string name="app_name">LightLineFishingCo</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Light Line Fishing Co.</string>
+    <string name="nav_header_subtitle">benjamin.chadwick01@stclairconnect.ca</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
@@ -35,4 +35,40 @@
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
     <string name="cotd_layout">Catch of the day layout</string>
     <string name="select_layout">Select the layout for Catch of the Day</string>
+
+    <string name="clinch1">Pass the working end through the eye of the hook</string>
+    <string name="clinch2">Wrap the working end around the standing line 5–10 times, for lighter line more wraps are recommended</string>
+    <string name="clinch3">Pass the working end through the first loop</string>
+    <string name="clinch4">Pass the working end back through the loop you just created</string>
+    <string name="clinch5">Lubricate the knot with water or saliva, pull both ends to tighten the knot, then cut the tag end</string>
+
+    <string name="palomar1">Double your line over and then pass the end through the eye of the hook</string>
+    <string name="palomar2">Pass the working end behind the standing line</string>
+    <string name="palomar3">Wrap the working end around the loop</string>
+    <string name="palomar4">Pass the working end around the hook</string>
+    <string name="palomar5">Bring the working end up</string>
+    <string name="palomar6">Lubricate the knot with water or saliva, then pull the standing line to tighten the knot</string>
+    <string name="palomar7">Trim the tag end</string>
+
+    <string name="rapala1">Make a loop, pass the tag end through the eyelet and the loop</string>
+    <string name="rapala2">Wrap the working end around the standing line 3 times</string>
+    <string name="rapala3">Pass the working end through the second loop</string>
+    <string name="rapala4">Pass the working end through the loop you just formed</string>
+    <string name="rapala5">Lubricate the knot with water or saliva and then pull both ends to tighten the knot</string>
+    <string name="rapala6">Cut any excess off the tag end</string>
+
+    <string name="uni1">Pass the line through the eye of the hook and make a loop with the tag end</string>
+    <string name="uni2">Wrap the tag end multiple times over the line</string>
+    <string name="uni3">Take the tag end out of the loop</string>
+    <string name="uni4">Pull the tag end and the standing part</string>
+    <string name="uni5">Make the loop of your desired size by pulling the standing part</string>
+    <string name="uni6">Tighten the knot down and trim the tag end</string>
+
+    <string name="snell1">Pass the line through the eye of the hook and loop</string>
+    <string name="snell2">Pass the end through the eye</string>
+    <string name="snell3">Hold and pass the loop through the standing part</string>
+    <string name="snell4">Wrap the loop around the standing part</string>
+    <string name="snell5">Continue wrapping 6 more times</string>
+    <string name="snell6">Pull the standing part to tighten</string>
+    <string name="snell7">Once tightened down it should look like this, no trimming of the tag end should be required</string>
 </resources>
