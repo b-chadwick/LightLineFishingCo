@@ -10,19 +10,19 @@
             android:title="@string/menu_home" />
         <item
             android:id="@+id/nav_equipment"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_fishing_rod"
             android:title="@string/menu_equipment" />
         <item
             android:id="@+id/nav_species"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_fish"
             android:title="@string/menu_species" />
         <item
             android:id="@+id/nav_knot_menu"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_knot"
             android:title="@string/menu_knot_menu" />
         <item
             android:id="@+id/nav_catch_of_the_day"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_fishing"
             android:title="@string/catch_of_the_day" />
     </group>
 </menu>

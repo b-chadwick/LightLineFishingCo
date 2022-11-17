@@ -71,4 +71,11 @@
     <string name="snell5">Continue wrapping 6 more times</string>
     <string name="snell6">Pull the standing part to tighten</string>
     <string name="snell7">Once tightened down it should look like this, no trimming of the tag end should be required</string>
+
+    <string name="about_us">About Us</string>
+    <string name="about_us_paragraph">We are Light Line Fishing Co. your go to supply store for Ultralight Fishing</string>
+    <string name="ultralight_fishing_header">What is UltraLight Fishing?</string>
+    <string name="ultralight_fishing_paragraph">Usually when fishing bigger is considered better, Ultralight fishing is counter to this idea focusing on catching fish
+    in the medium to micro category. This typically involves fishing with much lighter equipment than your average fisherman, notably lures between 1/8th and 1/80oz, 1 to 6 pound line
+    an ultralight to light weight rod and a 1000 series reel.</string>
 </resources>
