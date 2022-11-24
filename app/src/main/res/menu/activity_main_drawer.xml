@@ -13,10 +13,6 @@
             android:icon="@drawable/ic_fishing_rod"
             android:title="@string/menu_equipment" />
         <item
-            android:id="@+id/nav_species"
-            android:icon="@drawable/ic_fish"
-            android:title="@string/menu_species" />
-        <item
             android:id="@+id/nav_knot_menu"
             android:icon="@drawable/ic_knot"
             android:title="@string/menu_knot_menu" />

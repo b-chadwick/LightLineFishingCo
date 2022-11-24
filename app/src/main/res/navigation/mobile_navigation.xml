@@ -15,11 +15,6 @@
         android:label="@string/menu_equipment"
         tools:layout="@layout/fragment_equipment" />
     <fragment
-        android:id="@+id/nav_species"
-        android:name="com.benchadwick.lightlinefishingco.fragments.SpeciesFragment"
-        android:label="@string/menu_species"
-        tools:layout="@layout/fragment_species" />
-    <fragment
         android:id="@+id/nav_contact"
         android:name="com.benchadwick.lightlinefishingco.fragments.ContactFragment"
         android:label="fragment_contact"
