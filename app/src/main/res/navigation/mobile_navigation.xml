@@ -45,6 +45,6 @@
     <fragment
         android:id="@+id/nav_knot_vp"
         android:name="com.benchadwick.lightlinefishingco.knot_tool.knotToolViewPager"
-        android:label="fragment_knot_tool_view_pager"
+        android:label="Knot Tying Instructions"
         tools:layout="@layout/fragment_knot_tool_view_pager" />
 </navigation>

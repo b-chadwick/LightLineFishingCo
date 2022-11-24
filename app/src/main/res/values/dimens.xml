@@ -9,4 +9,5 @@
     <dimen name="med_margin">10dp</dimen>
     <dimen name="medium_font">18sp</dimen>
     <dimen name="large_font">24sp</dimen>
+    <dimen name="title_font">32sp</dimen>
 </resources>

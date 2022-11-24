@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:layout_marginTop="@dimen/med_margin"
     android:layout_marginBottom="@dimen/med_margin"
-    android:background="@color/green_3"
+    android:background="?attr/colorSecondary"
     android:orientation="vertical">
 
     <ImageView
@@ -28,7 +28,7 @@
         android:padding="@dimen/small_margin"
         android:text="Species: Bluegill"
         android:textAlignment="center"
-        android:textColor="@color/green_dark"
+        android:textColor="?attr/colorOnPrimary"
         android:textSize="@dimen/medium_font" />
 
     <TextView
@@ -39,6 +39,6 @@
         android:padding="@dimen/small_margin"
         android:text="Submitted by: Hank Hill - November 5th 2022"
         android:textAlignment="center"
-        android:textColor="@color/green_dark"
+        android:textColor="?attr/colorOnPrimary"
         android:textSize="14sp" />
 </LinearLayout>
