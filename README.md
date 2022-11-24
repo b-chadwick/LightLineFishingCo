@@ -27,7 +27,7 @@ This is a ViewPager2 users can swipe back and forth through the steps to learn h
 - [fish](https://www.flaticon.com/free-icon/fish_3050551?term=fish&related_id=3050551)
 - [knot](https://www.flaticon.com/free-icon/knot_4299778?term=knot&page=1&position=2&page=1&position=2&related_id=4299778&origin=search)
 - [fish on rod](https://www.flaticon.com/free-icon/fishing_1830741?term=fishing&page=1&position=1&page=1&position=1&related_id=1830741&origin=search)
+- [lure](https://www.flaticon.com/free-icon/fishing-baits_4090542?related_id=4090542)
 #### Images:
 - [menu header](https://unsplash.com/photos/3nalUfmyG-s)
 - [knot images](https://www.101knots.com/category/fishing-knots)
-

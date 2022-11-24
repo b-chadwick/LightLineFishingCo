@@ -73,9 +73,19 @@
     <string name="snell7">Once tightened down it should look like this, no trimming of the tag end should be required</string>
 
     <string name="about_us">About Us</string>
-    <string name="about_us_paragraph">We are Light Line Fishing Co. your go to supply store for Ultralight Fishing</string>
-    <string name="ultralight_fishing_header">What is UltraLight Fishing?</string>
-    <string name="ultralight_fishing_paragraph">Usually when fishing bigger is considered better, Ultralight fishing is counter to this idea focusing on catching fish
+    <string name="about_us_paragraph">We are Light Line Fishing Co. your go to supply store for Ultra light Fishing</string>
+    <string name="ultralight_fishing_header">What is Ultra Light Fishing?</string>
+    <string name="ultralight_fishing_paragraph">Usually when fishing bigger is considered better, Ultra light fishing is counter to this idea focusing on catching fish
     in the medium to micro category. This typically involves fishing with much lighter equipment than your average fisherman, notably lures between 1/8th and 1/80oz, 1 to 6 pound line
-    an ultralight to light weight rod and a 1000 series reel.</string>
+    an ultra light to light action rod and a 1000 series reel.</string>
+
+    <string name="special_equipment">Specialty Equipment needed for Ultra light fishing</string>
+
+    <string name="ul_rods">The most important component in Ultra light fishing may come as no surprise, to Ultra light fish you need an Ultra Light Action rod.</string>
+
+    <string name="ul_reels">To pair with your Ultra light rod you will also need a small reel typically it is recommended to use either a 1000 or 2000 series with an Ultra light rod.</string>
+
+    <string name="ul_line">These rods and reels are designed to pair with the very light weight line. Typically anywhere between 2–6lb test fishing line.</string>
+
+    <string name="ul_lures">Hooks sizes 8 and 10 and jigs between 1/80th of an oz and 1/16th of an oz</string>
 </resources>
