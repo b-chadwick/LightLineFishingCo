@@ -20,5 +20,9 @@
             android:id="@+id/nav_catch_of_the_day"
             android:icon="@drawable/ic_fishing"
             android:title="@string/catch_of_the_day" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="@string/info" />
     </group>
 </menu>

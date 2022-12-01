@@ -1,4 +1,4 @@
-package com.benchadwick.lightlinefishingco.fragments;
+package com.benchadwick.lightlinefishingco;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -10,16 +10,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageView;
-
-import com.benchadwick.lightlinefishingco.R;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link EquipmentFragment#newInstance} factory method to
+ * Use the {@link AdditionalInformationFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class EquipmentFragment extends Fragment {
+public class AdditionalInformationFragment extends Fragment {
+
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -29,7 +27,7 @@ public class EquipmentFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public EquipmentFragment() {
+    public AdditionalInformationFragment() {
         // Required empty public constructor
     }
 
@@ -39,11 +37,11 @@ public class EquipmentFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment EquipmentFragment.
+     * @return A new instance of fragment AdditionalInformationFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static EquipmentFragment newInstance(String param1, String param2) {
-        EquipmentFragment fragment = new EquipmentFragment();
+    public static AdditionalInformationFragment newInstance(String param1, String param2) {
+        AdditionalInformationFragment fragment = new AdditionalInformationFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -64,35 +62,21 @@ public class EquipmentFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_equipment, container, false);
-        ImageView call = view.findViewById(R.id.call);
-        call.setOnClickListener(new View.OnClickListener() {
+        View view = inflater.inflate(R.layout.fragment_additional_information, container, false);
+        Button fishingLicenseButton = view.findViewById(R.id.license_button);
+        fishingLicenseButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Intent.ACTION_DIAL, Uri.parse("tel: 18005555555"));
-                startActivity(i);
-
-            }
-        });
-
-        ImageView email = view.findViewById(R.id.email);
-        email.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String[] salesEmail = new String[]{"sales@lightlinefishingco.ca"};
-                Intent i = new Intent(Intent.ACTION_SENDTO);
-                i.setData(Uri.parse("mailto:"));
-                i.putExtra(Intent.EXTRA_EMAIL, salesEmail);
-                i.putExtra(Intent.EXTRA_SUBJECT, "Sales Inquiry");
+                Uri webpage = Uri.parse("https://www.ontario.ca/page/fishing");
+                Intent i = new Intent(Intent.ACTION_VIEW, webpage);
                 startActivity(i);
             }
         });
-
-        ImageView socialMedia = view.findViewById(R.id.social);
-        socialMedia.setOnClickListener(new View.OnClickListener() {
+        Button mapButton = view.findViewById(R.id.mapButton);
+        mapButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/"));
+                Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/search/public+fishing+near+me/@42.220059,-83.1272122,12z/data=!3m1!4b1"));
                 startActivity(i);
             }
         });

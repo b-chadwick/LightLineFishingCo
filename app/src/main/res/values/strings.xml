@@ -88,4 +88,11 @@
     <string name="ul_line">These rods and reels are designed to pair with the very light weight line. Typically anywhere between 2–6lb test fishing line.</string>
 
     <string name="ul_lures">Hooks sizes 8 and 10 and jigs between 1/80th of an oz and 1/16th of an oz</string>
+
+    <string name="info">Additional Information</string>
+
+    <string name="license">To legally fish in Ontario you are required to have a fishing license, for additional info or to acquire one click the button below to visit ontario.ca</string>
+
+    <string name="map">Already have a license? Check out public places near you to go fishing!</string>
+    <string name="supplies">Need to stock up on supplies? Give us a call, send us an email or message us on social media and we\'ll be happy to help you find everything you\'re looking for</string>
 </resources>
