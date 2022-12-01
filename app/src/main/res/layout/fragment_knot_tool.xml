@@ -28,7 +28,7 @@
         android:padding="@dimen/small_margin"
         android:text="TextView"
         android:textAlignment="center"
-        android:textColor="@color/green_dark"
+        android:textColor="?attr/colorOnPrimary"
         android:textSize="@dimen/medium_font"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

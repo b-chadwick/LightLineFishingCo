@@ -15,6 +15,9 @@
     <color name="green_5">#54cb7f</color>
     <color name="green_6">#3aba68</color>
 
-    <color name="green_dark">#00272B</color>
+    <color name="green_dark">#0B2414</color>
+
+    <color name="green_9">#123B21</color>
+    <color name="green_10">#0B2414</color>
 
 </resources>
