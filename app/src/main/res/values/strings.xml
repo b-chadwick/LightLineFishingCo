@@ -95,4 +95,12 @@
 
     <string name="map">Already have a license? Check out public places near you to go fishing!</string>
     <string name="supplies">Need to stock up on supplies? Give us a call, send us an email or message us on social media and we\'ll be happy to help you find everything you\'re looking for</string>
+    <string name="credits">Credits</string>
+    <string name="icons">Icons</string>
+    <string name="freepik">Freepik - Flaticon.com</string>
+    <string name="knot_credit">Nadiinko - Flaticon.com</string>
+    <string name="lure_credit">photo3idea_studio - Flaticon.com</string>
+    <string name="header_credit">John Sekutowski - unsplash.com</string>
+    <string name="knots_credit">101knots.com</string>
+    <string name="images">Images</string>
 </resources>
