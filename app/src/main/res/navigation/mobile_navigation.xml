@@ -3,23 +3,57 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
-
+    app:startDestination="@id/nav_home">
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.benchadwick.lightlinefishingco.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:name="com.benchadwick.lightlinefishingco.fragments.HomeFragment"
+        android:label="@string/title"
         tools:layout="@layout/fragment_home" />
-
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.benchadwick.lightlinefishingco.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
-
+        android:id="@+id/nav_equipment"
+        android:name="com.benchadwick.lightlinefishingco.fragments.EquipmentFragment"
+        android:label="@string/menu_equipment"
+        tools:layout="@layout/fragment_equipment" />
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.benchadwick.lightlinefishingco.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_contact"
+        android:name="com.benchadwick.lightlinefishingco.fragments.ContactFragment"
+        android:label="fragment_contact"
+        tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/nav_catch_of_the_day"
+        android:name="com.benchadwick.lightlinefishingco.catch_of_the_day.CatchOfTheDayFragment"
+        android:label="Catch of the Day"
+        tools:layout="@layout/fragment_catch_of_the_day" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.benchadwick.lightlinefishingco.fragments.SettingsFragment"
+        android:label="@string/action_settings" />
+    <fragment
+        android:id="@+id/nav_knot_menu"
+        android:name="com.benchadwick.lightlinefishingco.knot_tool.KnotToolNavigationFragment"
+        android:label="Select a Knot"
+        tools:layout="@layout/fragment_knot_tool_navigation">
+        <action
+            android:id="@+id/action_knotToolNavigationFragment_to_knotToolViewPager"
+            app:destination="@id/nav_knot_vp"
+            app:enterAnim="@anim/in"
+            app:exitAnim="@anim/out"
+            app:popEnterAnim="@anim/back_in"
+            app:popExitAnim="@anim/back_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_knot_vp"
+        android:name="com.benchadwick.lightlinefishingco.knot_tool.knotToolViewPager"
+        android:label="Knot Tying Instructions"
+        tools:layout="@layout/fragment_knot_tool_view_pager" />
+    <fragment
+        android:id="@+id/nav_info"
+        android:name="com.benchadwick.lightlinefishingco.fragments.AdditionalInformationFragment"
+        android:label="Additional Information"
+        tools:layout="@layout/fragment_additional_information" />
+    <fragment
+        android:id="@+id/nav_credits"
+        android:name="com.benchadwick.lightlinefishingco.fragments.CreditsFragment"
+        android:label="Credits"
+        tools:layout="@layout/fragment_credits" />
 </navigation>

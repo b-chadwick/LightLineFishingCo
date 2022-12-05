@@ -1,0 +1,10 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<ListPreference app:title="@string/cotd_layout"
+    app:summary="@string/select_layout"
+    app:key="cotd_layout"
+    app:defaultValue="list"
+    app:entries="@array/recycle_layout_menu"
+    app:entryValues="@array/recycle_layout_values"/>
+
+</PreferenceScreen>

@@ -2,12 +2,105 @@
     <string name="app_name">LightLineFishingCo</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Light Line Fishing Co.</string>
+    <string name="nav_header_subtitle">benjamin.chadwick01@stclairconnect.ca</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_equipment">Equipment</string>
+    <string name="menu_species">Species</string>
+    <string name="menu_knot_menu">Knots</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">Light Line Fishing Co.</string>
+    <string name="catch_of_the_day">Catch of the Day</string>
+    <string name="species_label">Species: </string>
+    <string name="description_label">Caught by: </string>
+    <string name="spaced_dash"> - </string>
+    <string name="caught_by">Caught by: </string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="cotd_layout">Catch of the day layout</string>
+    <string name="select_layout">Select the layout for Catch of the Day</string>
+
+    <string name="clinch1">Pass the working end through the eye of the hook</string>
+    <string name="clinch2">Wrap the working end around the standing line 5–10 times, for lighter line more wraps are recommended</string>
+    <string name="clinch3">Pass the working end through the first loop</string>
+    <string name="clinch4">Pass the working end back through the loop you just created</string>
+    <string name="clinch5">Lubricate the knot with water or saliva, pull both ends to tighten the knot, then cut the tag end</string>
+
+    <string name="palomar1">Double your line over and then pass the end through the eye of the hook</string>
+    <string name="palomar2">Pass the working end behind the standing line</string>
+    <string name="palomar3">Wrap the working end around the loop</string>
+    <string name="palomar4">Pass the working end around the hook</string>
+    <string name="palomar5">Bring the working end up</string>
+    <string name="palomar6">Lubricate the knot with water or saliva, then pull the standing line to tighten the knot</string>
+    <string name="palomar7">Trim the tag end</string>
+
+    <string name="rapala1">Make a loop, pass the tag end through the eyelet and the loop</string>
+    <string name="rapala2">Wrap the working end around the standing line 3 times</string>
+    <string name="rapala3">Pass the working end through the second loop</string>
+    <string name="rapala4">Pass the working end through the loop you just formed</string>
+    <string name="rapala5">Lubricate the knot with water or saliva and then pull both ends to tighten the knot</string>
+    <string name="rapala6">Cut any excess off the tag end</string>
+
+    <string name="uni1">Pass the line through the eye of the hook and make a loop with the tag end</string>
+    <string name="uni2">Wrap the tag end multiple times over the line</string>
+    <string name="uni3">Take the tag end out of the loop</string>
+    <string name="uni4">Pull the tag end and the standing part</string>
+    <string name="uni5">Make the loop of your desired size by pulling the standing part</string>
+    <string name="uni6">Tighten the knot down and trim the tag end</string>
+
+    <string name="snell1">Pass the line through the eye of the hook and loop</string>
+    <string name="snell2">Pass the end through the eye</string>
+    <string name="snell3">Hold and pass the loop through the standing part</string>
+    <string name="snell4">Wrap the loop around the standing part</string>
+    <string name="snell5">Continue wrapping 6 more times</string>
+    <string name="snell6">Pull the standing part to tighten</string>
+    <string name="snell7">Once tightened down it should look like this, no trimming of the tag end should be required</string>
+
+    <string name="about_us">About Us</string>
+    <string name="about_us_paragraph">We are Light Line Fishing Co. your go to supply store for Ultra light Fishing</string>
+    <string name="ultralight_fishing_header">What is Ultra Light Fishing?</string>
+    <string name="ultralight_fishing_paragraph">Usually when fishing bigger is considered better, Ultra light fishing is counter to this idea focusing on catching fish
+    in the medium to micro category. This typically involves fishing with much lighter equipment than your average fisherman, notably lures between 1/8th and 1/80oz, 1 to 6 pound line
+    an ultra light to light action rod and a 1000 series reel.</string>
+
+    <string name="special_equipment">Specialty Equipment needed for Ultra light fishing</string>
+
+    <string name="ul_rods">The most important component in Ultra light fishing may come as no surprise, to Ultra light fish you need an Ultra Light Action rod.</string>
+
+    <string name="ul_reels">To pair with your Ultra light rod you will also need a small reel typically it is recommended to use either a 1000 or 2000 series with an Ultra light rod.</string>
+
+    <string name="ul_line">These rods and reels are designed to pair with the very light weight line. Typically anywhere between 2–6lb test fishing line.</string>
+
+    <string name="ul_lures">Hooks sizes 8 and 10 and jigs between 1/80th of an oz and 1/16th of an oz</string>
+
+    <string name="info">Additional Information</string>
+
+    <string name="license">To legally fish in Ontario you are required to have a fishing license, for additional info or to acquire one click the button below to visit ontario.ca</string>
+
+    <string name="map">Already have a license? Check out public places near you to go fishing!</string>
+    <string name="supplies">Need to stock up on supplies? Give us a call, send us an email or message us on social media and we\'ll be happy to help you find everything you\'re looking for</string>
+    <string name="credits">Credits</string>
+    <string name="icons">Icons</string>
+    <string name="freepik">Freepik - Flaticon.com</string>
+    <string name="knot_credit">Nadiinko - Flaticon.com</string>
+    <string name="lure_credit">photo3idea_studio - Flaticon.com</string>
+    <string name="header_credit">John Sekutowski - unsplash.com</string>
+    <string name="knots_credit">101knots.com</string>
+    <string name="images">Images</string>
 </resources>
