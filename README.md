@@ -12,12 +12,21 @@ This is a Nav Drawer Application
 ![The Home Screen](readme_imgs/home.png)
 ### Menu
 ![The Navigation Menu](readme_imgs/menu.png)
+### Equipment
+![The Equipment Screen](readme_imgs/equipment.png)
 ### Knot Menu
 ![A Menu Screen in which a user can select which knot they would like to learn to tie](readme_imgs/knotmenu.png)
 This is a ListView, each item is clickable and navigates to the knot tool 
 ### Knot Tool
-![A Tool which the user can swipe through to see the different steps to tie a knot](readme_imgs/knottool.png)
-This is a ViewPager2 users can swipe back and forth through the steps to learn how to tie the knot they selected 
+![A Tool which the user can swipe through to see the different steps to tie a knot](readme_imgs/knot.png)
+This is a ViewPager2 users can swipe back and forth through the steps to learn how to tie the knot they selected
+![The tool being swiped through](readme_imgs/knotswipe.png)
+### Catch of the Day
+![A collage of images of fish caught by users and information about them](readme_imgs/catch.png)
+### More Info
+![The Navigation Menu](readme_imgs/moreinfo.png)
+The fishing license button opens your web browser to ontario.ca where you can apply for a fishing license.
+The Fishing near me button opens your maps with the phrase "fishing spots near me" queued up.
 
 ### Credits 
 
