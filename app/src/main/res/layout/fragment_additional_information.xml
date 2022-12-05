@@ -5,7 +5,7 @@
     android:id="@+id/frameLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AdditionalInformationFragment" >
+    tools:context=".fragments.AdditionalInformationFragment" >
 
     <TextView
         android:id="@+id/textView6"
@@ -16,6 +16,7 @@
         android:padding="@dimen/med_margin"
         android:text="@string/license"
         android:textAlignment="center"
+        android:textColor="?attr/colorOnPrimary"
         android:textSize="@dimen/medium_font"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,8 +37,12 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:fontFamily="@font/lato"
         android:padding="@dimen/med_margin"
         android:text="@string/map"
+        android:textAlignment="center"
+        android:textColor="?attr/colorOnPrimary"
+        android:textSize="@dimen/medium_font"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/license_button" />

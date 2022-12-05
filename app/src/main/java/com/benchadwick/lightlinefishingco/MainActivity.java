@@ -59,6 +59,8 @@ public class MainActivity extends AppCompatActivity {
           case R.id.action_settings:
               navController.navigate(R.id.nav_settings);
           break;
+          case R.id.action_credits:
+              navController.navigate(R.id.nav_credits);
       }
       return super.onOptionsItemSelected(item);
     }
